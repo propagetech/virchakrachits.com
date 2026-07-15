@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-hidden="true">
+  <ellipse cx="200" cy="268" rx="150" ry="16" fill="#e4ddcd"/>
+
+  <!-- chat bubble backdrop -->
+  <rect x="40" y="30" width="230" height="150" rx="18" fill="#f4ecd8"/>
+  <path d="M70 176 L70 210 L110 176 Z" fill="#f4ecd8"/>
+
+  <!-- question mark inside bubble -->
+  <text x="155" y="140" font-family="Georgia, serif" font-size="120" fill="#d4af6a" text-anchor="middle">?</text>
+
+  <!-- seated person -->
+  <g>
+    <!-- legs / seat -->
+    <rect x="255" y="205" width="70" height="14" rx="7" fill="#0a2445"/>
+    <rect x="262" y="150" width="16" height="60" rx="8" fill="#14335c"/>
+    <rect x="300" y="150" width="16" height="60" rx="8" fill="#14335c"/>
+
+    <!-- torso -->
+    <rect x="250" y="95" width="80" height="70" rx="24" fill="#0a2445"/>
+
+    <!-- arm pointing to bubble -->
+    <rect x="205" y="110" width="55" height="16" rx="8" fill="#0a2445" transform="rotate(-12 205 110)"/>
+    <circle cx="205" cy="102" r="10" fill="#d4af6a"/>
+
+    <!-- other arm resting -->
+    <rect x="315" y="118" width="45" height="16" rx="8" fill="#0a2445" transform="rotate(20 315 118)"/>
+    <circle cx="352" cy="132" r="10" fill="#d4af6a"/>
+
+    <!-- head -->
+    <circle cx="290" cy="72" r="26" fill="#d4af6a"/>
+    <path d="M264 66a26 26 0 0 1 52 0c-10-6-18-4-26-4s-16-2-26 4z" fill="#0a2445"/>
+  </g>
+
+  <!-- floating dots -->
+  <circle cx="120" cy="55" r="6" fill="#d4af6a"/>
+  <circle cx="345" cy="70" r="5" fill="#e4ddcd"/>
+  <circle cx="230" cy="205" r="5" fill="#d4af6a"/>
+</svg>
