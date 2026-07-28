@@ -1,38 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-hidden="true">
-  <ellipse cx="200" cy="268" rx="150" ry="16" fill="#e4ddcd"/>
+  <defs>
+    <style>
+      .faq-person { fill: #1a2942; }
+      .faq-qmark { fill: #a4ac49; }
+      .faq-accent { fill: #d4a574; }
+      .faq-leaf { fill: #a4ac49; opacity: 0.3; }
+    </style>
+  </defs>
 
-  <!-- chat bubble backdrop -->
-  <rect x="40" y="30" width="230" height="150" rx="18" fill="#f4ecd8"/>
-  <path d="M70 176 L70 210 L110 176 Z" fill="#f4ecd8"/>
+  <!-- Background decorative foliage -->
+  <path d="M 30 180 Q 20 150 35 130 Q 40 150 35 170 Q 30 190 30 180" class="faq-leaf" />
+  <path d="M 360 220 Q 350 190 365 170 Q 370 190 365 210 Q 360 230 360 220" class="faq-leaf" />
+  <circle cx="70" cy="240" r="2.5" class="faq-leaf" />
+  <circle cx="320" cy="60" r="2" class="faq-leaf" />
 
-  <!-- question mark inside bubble -->
-  <text x="155" y="140" font-family="Georgia, serif" font-size="120" fill="#d4af6a" text-anchor="middle">?</text>
+  <!-- Decorative dots -->
+  <circle cx="120" cy="80" r="2" class="faq-leaf" />
+  <circle cx="280" cy="240" r="1.5" class="faq-leaf" />
 
-  <!-- seated person -->
-  <g>
-    <!-- legs / seat -->
-    <rect x="255" y="205" width="70" height="14" rx="7" fill="#0a2445"/>
-    <rect x="262" y="150" width="16" height="60" rx="8" fill="#14335c"/>
-    <rect x="300" y="150" width="16" height="60" rx="8" fill="#14335c"/>
+  <!-- Large question mark background -->
+  <text x="150" y="180" font-size="160" font-weight="700" text-anchor="middle" dominant-baseline="middle" class="faq-qmark" opacity="0.85">?</text>
 
-    <!-- torso -->
-    <rect x="250" y="95" width="80" height="70" rx="24" fill="#0a2445"/>
+  <!-- Person - head -->
+  <circle cx="280" cy="105" r="20" class="faq-person" />
 
-    <!-- arm pointing to bubble -->
-    <rect x="205" y="110" width="55" height="16" rx="8" fill="#0a2445" transform="rotate(-12 205 110)"/>
-    <circle cx="205" cy="102" r="10" fill="#d4af6a"/>
+  <!-- Person - hair -->
+  <path d="M 260 105 A 20 20 0 0 1 300 105" class="faq-person" />
 
-    <!-- other arm resting -->
-    <rect x="315" y="118" width="45" height="16" rx="8" fill="#0a2445" transform="rotate(20 315 118)"/>
-    <circle cx="352" cy="132" r="10" fill="#d4af6a"/>
+  <!-- Person - torso -->
+  <ellipse cx="280" cy="145" rx="28" ry="35" class="faq-person" />
 
-    <!-- head -->
-    <circle cx="290" cy="72" r="26" fill="#d4af6a"/>
-    <path d="M264 66a26 26 0 0 1 52 0c-10-6-18-4-26-4s-16-2-26 4z" fill="#0a2445"/>
-  </g>
+  <!-- Person - shirt collar -->
+  <path d="M 265 125 L 270 140 L 290 140 L 295 125 Z" class="faq-person" />
 
-  <!-- floating dots -->
-  <circle cx="120" cy="55" r="6" fill="#d4af6a"/>
-  <circle cx="345" cy="70" r="5" fill="#e4ddcd"/>
-  <circle cx="230" cy="205" r="5" fill="#d4af6a"/>
+  <!-- Person - left arm (thinking pose) -->
+  <path d="M 254 135 Q 240 140 235 155" stroke="#1a2942" stroke-width="5" fill="none" stroke-linecap="round" />
+  <circle cx="235" cy="155" r="6" class="faq-person" />
+
+  <!-- Person - right arm -->
+  <path d="M 306 140 Q 320 145 330 155" stroke="#1a2942" stroke-width="5" fill="none" stroke-linecap="round" />
+  <circle cx="330" cy="155" r="6" class="faq-person" />
+
+  <!-- Person - legs -->
+  <rect x="272" y="175" width="7" height="30" class="faq-person" rx="3.5" />
+  <rect x="289" y="175" width="7" height="30" class="faq-person" rx="3.5" />
+
+  <!-- Person - shoes -->
+  <ellipse cx="275.5" cy="208" rx="8" ry="5" class="faq-accent" />
+  <ellipse cx="292.5" cy="208" rx="8" ry="5" class="faq-accent" />
+
+  <!-- Person - eyes (thinking expression) -->
+  <circle cx="273" cy="100" r="1.5" class="faq-person" />
+  <circle cx="287" cy="100" r="1.5" class="faq-person" />
+
+  <!-- Thought bubble indicator -->
+  <circle cx="320" cy="85" r="16" fill="none" stroke="#a4ac49" stroke-width="2.5" opacity="0.5" />
+  <text x="320" y="92" font-size="16" font-weight="700" text-anchor="middle" class="faq-accent">i</text>
+
+  <!-- Floating accent dot near head -->
+  <circle cx="240" cy="70" r="1.5" class="faq-leaf" />
 </svg>
