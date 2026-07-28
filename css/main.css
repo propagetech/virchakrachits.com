@@ -511,6 +511,7 @@ table.ledger td.num { font-weight: 600; color: var(--navy); }
 }
 .walkthrough h3 { margin-bottom: 0.3em; }
 .walkthrough p { margin-bottom: 0; color: var(--muted); }
+.walkthrough .ico { width: 32px; height: 32px; color: var(--gold); flex-shrink: 0; }
 .walkthrough .figure {
   font-weight: 700;
   color: var(--navy);
