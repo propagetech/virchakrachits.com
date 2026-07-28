@@ -493,6 +493,15 @@ table.ledger td.num { font-weight: 600; color: var(--navy); }
   gap: 20px;
   padding: 22px 0;
   border-bottom: 1px solid var(--line);
+  align-items: flex-start;
+}
+.walkthrough li > svg {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.walkthrough li > div {
+  grid-column: 2 / 3;
+  grid-row: 1;
 }
 .walkthrough li:last-child { border-bottom: none; }
 .walkthrough li::before {
