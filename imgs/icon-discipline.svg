@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true">
+  <defs>
+    <style>.icon-fill { fill: #a4ac49; } .icon-stroke { stroke: #a4ac49; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }</style>
+  </defs>
+  <!-- Calendar -->
+  <rect x="20" y="30" width="60" height="45" rx="3" class="icon-stroke" />
+  <path d="M 30 38 L 30 28 M 70 38 L 70 28" class="icon-stroke" />
+  <line x1="20" y1="45" x2="80" y2="45" class="icon-stroke" />
+  <!-- Checkmarks -->
+  <path d="M 32 55 L 36 60 L 42 50" class="icon-stroke" />
+  <path d="M 52 55 L 56 60 L 62 50" class="icon-stroke" />
+</svg>

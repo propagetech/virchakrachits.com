@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true">
+  <defs>
+    <style>.icon-fill { fill: #a4ac49; } .icon-stroke { stroke: #a4ac49; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }</style>
+  </defs>
+  <!-- Lightning bolt -->
+  <path d="M 50 20 L 65 45 L 48 45 L 55 75 L 35 55 L 50 55 Z" class="icon-fill" />
+  <!-- Money bag -->
+  <path d="M 30 65 Q 30 55 40 55 L 60 55 Q 70 55 70 65 L 70 75 Q 70 80 65 80 L 35 80 Q 30 80 30 75 Z" class="icon-stroke" />
+  <text x="50" y="74" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold" class="icon-fill">$</text>
+</svg>
