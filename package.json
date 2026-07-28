@@ -1,0 +1,8 @@
+{
+  "name": "Virchakra Chits Pvt Ltd",
+  "version": "1.0.0",
+  "description": "Registered chit fund company in Basavanagudi, Bangalore - Real scheme values, free doorstep collection",
+  "scripts": {
+    "build": "node build-dist.js"
+  }
+}

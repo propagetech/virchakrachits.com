@@ -1,5 +1,29 @@
 User-agent: *
 Allow: /
-Disallow: /archive/
 
+# Block AI training crawlers (GPTBot, ClaudeBot, etc.)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Google-Extended (requires robots.txt, cannot be blocked via headers)
+User-agent: *
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# Applebot-Extended (requires robots.txt, cannot be blocked via headers)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Sitemap
 Sitemap: https://www.virchakrachits.com/sitemap.xml
